@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=p, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>jqurey test 1</p>
+  <p>jqurey test 2</p>
+  <p>jqurey test 3</p>
+  <div id='div1'>
+    <p>jquery in div</p>
+  </div>
+
+  <script src='./my-zepto.js'></script>
+  <script>
+    var $p = $('p')
+    $p.css('color', 'blue')
+    console.log($p.html())
+
+    var $div1 = $('#div1')
+    $div1.css('font-size', '40px')
+    console.log($div1.html())
+  </script>
+</body>
+
+</html>
